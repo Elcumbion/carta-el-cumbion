@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Restaurante El Cumbión</title>
+    <meta name="description" content="Menú de carta con especialidades en pollo y carnes. Restaurante El Cumbión.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <div class="logo-container">
+            <h1 id="restaurant-name">RESTAURANTE EL CUMBIÓN</h1>
+            <p class="subtitle">SABORES QUE ENAMORAN</p>
+        </div>
+        <nav class="category-nav">
+            <a href="#platos-principales" class="category-btn">Principales</a>
+            <a href="#platos-individuales" class="category-btn">Individuales</a>
+            <a href="#postres" class="category-btn">Postres</a>
+            <a href="#cocteles" class="category-btn">Cócteles</a>
+        </nav>
+    </header>
+
+    <main class="menu-container">
+        <section class="menu-section fadeIn" id="platos-principales">
+            <h2 class="section-title">Platos Principales</h2>
+
+            <div class="house-specialty clickable-card" data-name="Pollo al Cumbión" data-price="$19.500"
+                data-desc="Nuestra especialidad estrella, preparada con una reducción de coñac seleccionado y champiñones frescos de la zona."
+                data-img="img/pollo_cumbion.png">
+                <div class="special-badge">Especialidad de la casa</div>
+                <div class="specialty-content">
+                    <div class="specialty-image">
+                        <img src="img/pollo_cumbion.png" alt="Pollo al Cumbión">
+                    </div>
+                    <div class="specialty-text">
+                        <div class="menu-item-header">
+                            <span class="item-name">Pollo al Cumbión</span>
+                            <span class="item-price">$19.500</span>
+                        </div>
+                        <p class="item-description-short">(Con coñac y champignon)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Pollo al Coñac" data-price="$19.000"
+                data-desc="Jugoso pollo cocinado lentamente en una salsa tradicional de coñac, perfecto para paladares exigentes."
+                data-img="img/pollo_conac.png">
+                <div class="item-card">
+                    <img src="img/pollo_conac.png" alt="Pollo al Coñac" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Pollo al Coñac</span>
+                            <span class="item-price">$19.000</span>
+                        </div>
+                        <p class="item-description-short">Jugoso pollo cocinado lentamente en una salsa tradicional de
+                            coñac.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Pollo al Champignon" data-price="$19.000"
+                data-desc="Tiernos trozos de pollo bañados en una cremosa salsa de champiñones parís."
+                data-img="img/pollo_champignon.png">
+                <div class="item-card">
+                    <img src="img/pollo_champignon.png" alt="Pollo al Champignon" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Pollo al Champignon</span>
+                            <span class="item-price">$19.000</span>
+                        </div>
+                        <p class="item-description-short">Tiernos trozos de pollo bañados en una cremosa salsa de
+                            champiñones.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Pollo Arverjado" data-price="$19.000"
+                data-desc="Un clásico de la cocina chilena, pollo guisado con arvejas, zanahorias y un toque de cebolla caramelizada."
+                data-img="img/pollo_arverjado.png">
+                <div class="item-card">
+                    <img src="img/pollo_arverjado.png" alt="Pollo Arverjado" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Pollo Arverjado</span>
+                            <span class="item-price">$19.000</span>
+                        </div>
+                        <p class="item-description-short">Pollo guisado con arvejas, zanahorias y un toque de cebolla
+                            caramelizada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section fadeIn" id="platos-individuales">
+            <h2 class="section-title">Platos Individuales</h2>
+
+            <div class="menu-item clickable-card" data-name="Lomo con Agregados" data-price="$12.000"
+                data-desc="Jugoso bife de lomo vetado (300 grs). Acompañado de papas cocidas, arroz fresco, ensaladas, papas fritas caseras y/o papas mayo."
+                data-img="img/lomos_agregados.png">
+                <div class="item-card">
+                    <img src="img/lomos_agregados.png" alt="Lomo con Agregados" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Lomo con Agregados</span>
+                            <span class="item-price">$12.000</span>
+                        </div>
+                        <p class="item-description-short">Jugoso bife de lomo vetado (300 grs) con acompañamientos a
+                            elección.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Arrollado Artesanal" data-price="$12.000"
+                data-desc="Arrollado artesanal de 400 grs. Cocido y aliñado suave logrando un sabor intenso. Acompañado de papas cocidas, arroz fresco, ensaladas, papas fritas caseras y/o papas mayo."
+                data-img="img/arrollado_agregados.png">
+                <div class="item-card">
+                    <img src="img/arrollado_agregados.png" alt="Arrollado" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Arrollado Artesanal</span>
+                            <span class="item-price">$12.000</span>
+                        </div>
+                        <p class="item-description-short">Arrollado de 400 grs. cocido y aliñado con acompañamientos a
+                            elección.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Pernil Mano" data-price="$13.000"
+                data-desc="Pernil mano (más de 1 kgs) cocido tiernamente, jugoso y suave. Acompañado de papas cocidas, arroz fresco, ensaladas, papas fritas caseras y/o papas mayo."
+                data-img="img/pernil_papas.png">
+                <div class="item-card">
+                    <img src="img/pernil_papas.png" alt="Pernil Mano" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Pernil Mano con Agregados</span>
+                            <span class="item-price">$13.000</span>
+                        </div>
+                        <p class="item-description-short">Pernil jugoso de más de 1 kg con acompañamientos a elección.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Conejo Escabechado" data-price="$8.500"
+                data-desc="Dos presas selladas cocinadas con verduras seleccionadas y finas hierbas, destaca su sabor intenso y caldo suave."
+                data-img="img/conejo_escabechado.png">
+                <div class="item-card">
+                    <img src="img/conejo_escabechado.png" alt="Conejo Escabechado" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Conejo Escabechado</span>
+                            <span class="item-price">$8.500</span>
+                        </div>
+                        <p class="item-description-short">Dos presas cocinadas con verduras y finas hierbas de sabor
+                            intenso.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Salmón a la Plancha" data-price="$14.000"
+                data-desc="Salmón jugoso a la plancha con mantequilla (250 grs). Acompañado de papas cocidas, arroz fresco, ensaladas, papas fritas caseras y/o papas mayo."
+                data-img="img/salmon_plancha.png">
+                <div class="item-card">
+                    <img src="img/salmon_plancha.png" alt="Salmón a la Plancha" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Salmón a la Plancha con Agregados</span>
+                            <span class="item-price">$14.000</span>
+                        </div>
+                        <p class="item-description-short">Salmón jugoso (250 grs) a la plancha con mantequilla y
+                            agregados a elección.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Plato Niño" data-price="$8.000"
+                data-desc="Filetillos de pollo a la plancha (300 grs). Acompañado de papas cocidas, arroz fresco, ensaladas, papas fritas caseras y/o papas mayo."
+                data-img="img/plato_nino.png">
+                <div class="item-card">
+                    <img src="img/plato_nino.png" alt="Plato Niño" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Plato Niño (Filetillos de pollo)</span>
+                            <span class="item-price">$8.000</span>
+                        </div>
+                        <p class="item-description-short">Filetillos de pollo (300 grs) con acompañamientos a elección.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Vegano" data-price="$8.000"
+                data-desc="Dos jugosas hamburguesas de soya acompañadas de champiñones salteados con finas hierbas y papas fritas caseras."
+                data-img="img/vegetariano.png">
+                <div class="item-card">
+                    <img src="img/vegetariano.png" alt="Vegano" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Vegano (Hamburguesas de Soya)</span>
+                            <span class="item-price">$8.000</span>
+                        </div>
+                        <p class="item-description-short">Dos hamburguesas de soya con champiñones salteados y papas
+                            fritas caseras.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section fadeIn" id="postres">
+            <h2 class="section-title">Postres</h2>
+
+            <div class="menu-item clickable-card" data-name="Torta de Manjar" data-price="$3.500"
+                data-desc="Finas capas de bizcocho, rellenas con manjar casero y cubiertas con crema."
+                data-img="img/torta_manjar.png">
+                <div class="item-card">
+                    <img src="img/torta_manjar.png" alt="Torta de Manjar" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Torta de Manjar</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Finas capas de bizcocho rellenas con manjar casero.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Torta de Galleta de Oreo" data-price="$3.500"
+                data-desc="Capas de bizcocho húmedo, con relleno de galletas trituradas y cubiertas con crema."
+                data-img="img/torta_oreo.png">
+                <div class="item-card">
+                    <img src="img/torta_oreo.png" alt="Torta de Galleta de Oreo" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Torta de Galleta de Oreo</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Bizcocho húmedo con relleno de galletas y crema.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Torta Tres Leches" data-price="$3.500"
+                data-desc="Capas de bizcocho esponjoso remojado con tres leches y cubiertas con crema."
+                data-img="img/torta_tres_leches.png">
+                <div class="item-card">
+                    <img src="img/torta_tres_leches.png" alt="Torta Tres Leches" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Torta Tres Leches</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Bizcocho esponjoso remojado con tres leches.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Suspiro Limeño" data-price="$3.500"
+                data-desc="Base cremosa de manjar blanco, coronada con merengue y canela."
+                data-img="img/suspiro_limeno.png">
+                <div class="item-card">
+                    <img src="img/suspiro_limeno.png" alt="Suspiro Limeño" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Suspiro Limeño</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Base cremosa de manjar blanco, coronada con merengue.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Leche Asada" data-price="$3.500"
+                data-desc="Textura firme y consistencia suave con superficie dorada cubierto de caramelo."
+                data-img="img/leche_asada.png">
+                <div class="item-card">
+                    <img src="img/leche_asada.png" alt="Leche Asada" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Leche Asada</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Textura firme dorada y cubierta de caramelo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Mousse de Frutilla" data-price="$3.500"
+                data-desc="Suave y cremoso mousse sabor frutilla." data-img="img/mousse_frutilla.png">
+                <div class="item-card">
+                    <img src="img/mousse_frutilla.png" alt="Mousse de Frutilla" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Mousse de Frutilla</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Suave y cremoso mousse sabor frutilla.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Mousse de Chocolate" data-price="$3.500"
+                data-desc="Intenso y delicado mousse de chocolate." data-img="img/mousse_chocolate.png">
+                <div class="item-card">
+                    <img src="img/mousse_chocolate.png" alt="Mousse de Chocolate" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Mousse de Chocolate</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Intenso y delicado mousse de chocolate.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Helados" data-price="$3.500"
+                data-desc="Sabores: Chirimoya alegre, Sahne-nuss, Frutilla, Pasas al ron, Piña, Mango-maracuyá, Café helado, Pistacho."
+                data-img="img/helados.png">
+                <div class="item-card">
+                    <img src="img/helados.png" alt="Helados" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Helados Varios Sabores</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Chirimoya alegre, Sahne-nuss, Frutilla, Pasas al ron, Piña,
+                            Mango-maracuyá, Café helado, Pistacho.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section fadeIn" id="cocteles">
+            <h2 class="section-title">Cócteles</h2>
+
+            <div class="menu-item clickable-card" data-name="Clavo Oxidado" data-price="Consultar"
+                data-desc="Cóctel clásico y sencillo de dos ingredientes: whisky y drambuie, con notas de miel y hierbas. Se perfuma con dos a tres clavos de olor."
+                data-img="img/clavo_oxidado.png">
+                <div class="item-card">
+                    <img src="img/clavo_oxidado.png" alt="Clavo Oxidado" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Clavo Oxidado</span>
+                            <span class="item-price">$8.000</span>
+                        </div>
+                        <p class="item-description-short">Whisky y drambuie con notas de miel y perfumado con clavo de
+                            olor.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Tequila Margarita" data-price="Consultar"
+                data-desc="Clásico de México reconocido mundialmente por su equilibrio perfecto entre sabores dulce, ácido y salado. Base de tequila, limón y triple sec, frescura cítrica y distintivo borde escarchado con sal."
+                data-img="img/tequila_margarita.png">
+                <div class="item-card">
+                    <img src="img/tequila_margarita.png" alt="Tequila Margarita" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Tequila Margarita</span>
+                            <span class="item-price">$</span>
+                        </div>
+                        <p class="item-description-short">Clásico mexicano con tequila, limón, triple sec y borde con
+                            sal.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Piña Colada" data-price="Consultar"
+                data-desc="Cóctel tropical y refrescante originario de Puerto Rico. Mezcla de coco, piña y ron blanco perfecto para transportarte a las playas del Caribe."
+                data-img="img/pina_colada.png">
+                <div class="item-card">
+                    <img src="img/pina_colada.png" alt="Piña Colada" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Piña Colada</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <p class="item-description-short">Mezcla tropical de coco, piña y ron blanco.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Tequila Margarita Blue" data-price="Consultar"
+                data-desc="Cóctel refrescante que combina el tequila con Blue Curaçao. Cítricos de naranja de azul intenso ideal para fiestas y coctelerías de verano."
+                data-img="img/tequila_margarita_blue.png">
+                <div class="item-card">
+                    <img src="img/tequila_margarita_blue.png" alt="Tequila Margarita Blue" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Tequila Margarita Blue</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <p class="item-description-short">Tequila con Blue Curaçao y toques cítricos de naranja.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Ramazzotti" data-price="Consultar"
+                data-desc="Aperitivo italiano famoso por su sabor dulce a base de flores de hibisco y azahar, servido con espumante y toques cítricos, decorado con frescas naranjas."
+                data-img="img/ramazzotti.png">
+                <div class="item-card">
+                    <img src="img/ramazzotti.png" alt="Ramazzotti" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Ramazzotti</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <p class="item-description-short">Aperitivo dulce de hibisco y azahar con espumante y naranja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Aperol" data-price="Consultar"
+                data-desc="Aperitivo italiano de color naranja brillante. Destaca por su sabor agridulce y refrescante resultado de infusión de naranjas amargas, ruibarbo, genciana y quina."
+                data-img="img/aperol.png">
+                <div class="item-card">
+                    <img src="img/aperol.png" alt="Aperol" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Aperol Spritz</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <p class="item-description-short">Aperitivo agridulce de infusión de naranjas amargas y hierbas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Laguna Azul" data-price="Consultar"
+                data-desc="Cóctel clásico refrescante y visualmente impactante. Combina vodka, licor Blue Curaçao y limonada (o jugo de piña) ofreciendo un toque dulce, cítrico y tropical."
+                data-img="img/laguna_azul.png">
+                <div class="item-card">
+                    <img src="img/laguna_azul.png" alt="Laguna Azul" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Laguna Azul</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <p class="item-description-short">Vodka, Blue Curaçao y limonada con un intenso color turquesa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Primavera" data-price="Consultar"
+                data-desc="Cóctel refrescante, dulce y frutal. Vibrante color degradado combinando pisco, jugo de naranja, jugo de piña y un toque de granadina. Decorado con naranjas y cerezas."
+                data-img="img/primavera.png">
+                <div class="item-card">
+                    <img src="img/primavera.png" alt="Primavera" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Primavera</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <p class="item-description-short">Pisco, jugos de fruta y granadina en un colorido y dulce
+                            cóctel.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Tequila Sunrise" data-price="Consultar"
+                data-desc="Clásico y refrescante, famoso por su efecto visual degradado que simula un amanecer. Elaborado con tequila blanco, jugo de naranja y granadina."
+                data-img="img/tequila_sunrise.png">
+                <div class="item-card">
+                    <img src="img/tequila_sunrise.png" alt="Tequila Sunrise" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Tequila Sunrise</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <p class="item-description-short">Tequila, jugo de naranja y granadina simulando un amanecer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Mojito Cubano" data-price="Consultar"
+                data-desc="Cóctel refrescante originario de Cuba. Perfecto equilibrio entre dulce, cítrico y mentolado con ron blanco, azúcar, hojas de hierbabuena y soda."
+                data-img="img/mojito.png">
+                <div class="item-card">
+                    <img src="img/mojito.png" alt="Mojito Cubano" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Mojito Cubano</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <p class="item-description-short">Clásico ron blanco con azúcar, limón, hierbabuena y soda.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Mango Sour" data-price="$3.500"
+                data-desc="Refrescante cóctel chileno preparado con pisco, jugo de mango, jugo de limón y un toque de azúcar."
+                data-img="img/mango_sour.png">
+                <div class="item-card">
+                    <img src="img/mango_sour.png" alt="Mango Sour" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Mango Sour</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Pisco y jugo de mango, refrescante y tropical.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Vaina" data-price="$3.500"
+                data-desc="Tradicional cóctel chileno a base de vino dulce, coñac, cacao, yema de huevo y canela, dulce y cremoso."
+                data-img="img/vaina.png">
+                <div class="item-card">
+                    <img src="img/vaina.png" alt="Vaina" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Vaina</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Clásico dulce y cremoso a base de vino dulce y coñac.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Pisco Sour" data-price="$3.500"
+                data-desc="Nuestro clásico Pisco Sour preparado con pisco reservado, jugo de limón de pica, goma y un toque de amargo de angostura."
+                data-img="img/pisco_sour.png">
+                <div class="item-card">
+                    <img src="img/pisco_sour.png" alt="Pisco Sour" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Pisco Sour</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <p class="item-description-short">Preparación clásica con limón de pica y amargo de angostura.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Combinado Alto del Carmen" data-price="$5.500"
+                data-desc="Combinado clásico preparado con Pisco Alto del Carmen, hielo y bebida a elección."
+                data-img="img/piscola.png">
+                <div class="item-card">
+                    <img src="img/piscola.png" alt="Combinado Alto del Carmen" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Combinado Alto del Carmen 35°/40°</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <p class="item-description-short">Clásica piscola con Alto del Carmen 35° ($5.500) o 40° ($6.000).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Whisky / Destilados" data-price="$5.000"
+                data-desc="Disfruta de nuestros whiskys seleccionados. Opciones disponibles: Whisky tradicional, Johnnie Walker o Chivas Regal."
+                data-img="img/whisky.png">
+                <div class="item-card">
+                    <img src="img/whisky.png" alt="Whisky" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Whisky / Destilados</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <p class="item-description-short">Whisky ($5.000), Johnnie Walker ($6.000), Chivas ($8.000).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Vodka" data-price="$4.000"
+                data-desc="Combinado a tu gusto con bebida a elección."
+                data-img="img/vodka.png">
+                <div class="item-card">
+                    <img src="img/vodka.png" alt="Vodka" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Vodka</span>
+                            <span class="item-price">$4.000</span>
+                        </div>
+                        <p class="item-description-short">Combinado de vodka a elección.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Ron" data-price="$4.000"
+                data-desc="Clásico combinado de Ron con bebida y hielo a elección."
+                data-img="img/ron.png">
+                <div class="item-card">
+                    <img src="img/ron.png" alt="Ron" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Ron</span>
+                            <span class="item-price">$4.000</span>
+                        </div>
+                        <p class="item-description-short">Combinado de ron clásico y refrescante.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item clickable-card" data-name="Menta Frappé" data-price="$800"
+                data-desc="Licor de menta dulce y refrescante servido con abundante hielo frappé, ideal para la sobremesa."
+                data-img="img/menta_frappe.png">
+                <div class="item-card">
+                    <img src="img/menta_frappe.png" alt="Menta Frappé" class="item-thumb">
+                    <div class="item-info">
+                        <div class="menu-item-header">
+                            <span class="item-name">Menta Frappé</span>
+                            <span class="item-price">$800</span>
+                        </div>
+                        <p class="item-description-short">Licor de menta servido con hielo frappé.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section fadeIn">
+            <h2 class="section-title">Encuéntranos</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-block">
+                        <i class="icon">📍</i>
+                        <h3>Ubicación</h3>
+                        <p>Av. General Bonilla 7227, Lo Prado</p>
+                        <a href="https://maps.google.com/?q=Av.+General+Bonilla+7227,+Lo+Prado" target="_blank"
+                            class="gold-link">Cómo llegar</a>
+                    </div>
+                    <div class="info-block">
+                        <i class="icon">🕒</i>
+                        <h3>Horarios</h3>
+                        <p>Lun - Jue: 12:00 a 20:30</p>
+                        <p>Vie - Sáb: 12:00 a 22:00</p>
+                        <p>Dom: 12:00 a 20:00</p>
+                    </div>
+                    <div class="info-block">
+                        <i class="icon">📞</i>
+                        <h3>Reservas</h3>
+                        <p>+56 9 8765 4321</p>
+                        <div class="social-row">
+                            <a href="https://www.instagram.com/elcumbion.cl/" class="social-btn">IG</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-placeholder">
+                    <!-- Placeholder for Map -->
+                    <div class="map-box">
+                        <p>Mapa Interactivo</p>
+                        <span>Cargar mapa de Google</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Restaurante El Cumbión. Los mejores sabores locales.</p>
+    </footer>
+
+    <!-- Detail Modal -->
+    <div class="detail-modal" id="detailModal">
+        <div class="modal-window">
+            <span class="close-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-image-container">
+                    <img id="modalImg" src="" alt="">
+                </div>
+                <div class="modal-text-container">
+                    <h3 id="modalName">Nombre del Plato</h3>
+                    <p class="modal-price" id="modalPrice">$0.000</p>
+                    <p class="modal-desc" id="modalDesc">Descripción larga del producto aquí.</p>
+                    <button class="back-btn">Volver al Menú</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById("detailModal");
+        const modalImg = document.getElementById("modalImg");
+        const modalName = document.getElementById("modalName");
+        const modalPrice = document.getElementById("modalPrice");
+        const modalDesc = document.getElementById("modalDesc");
+        const cards = document.querySelectorAll('.clickable-card');
+        const closeModal = document.querySelector('.close-modal');
+        const backBtn = document.querySelector('.back-btn');
+
+        cards.forEach(card => {
+            card.onclick = function () {
+                const name = this.getAttribute('data-name');
+                const price = this.getAttribute('data-price');
+                const desc = this.getAttribute('data-desc');
+                const img = this.getAttribute('data-img');
+
+                modalImg.src = img;
+                modalName.innerText = name;
+                modalPrice.innerText = price;
+                modalDesc.innerText = desc;
+
+                modal.classList.add("active");
+                modal.style.display = "flex";
+                document.body.style.overflow = "hidden";
+            }
+        });
+
+        function closeAll() {
+            modal.classList.remove("active");
+            setTimeout(() => {
+                modal.style.display = "none";
+                document.body.style.overflow = "auto";
+            }, 300);
+        }
+
+        closeModal.onclick = closeAll;
+        backBtn.onclick = closeAll;
+        modal.onclick = function (e) {
+            if (e.target === modal) closeAll();
+        }
+    </script>
+</body>
+
+</html>
