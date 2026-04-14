@@ -280,10 +280,12 @@ header .subtitle {
     background: var(--secondary-color);
     width: 100%;
     max-width: 1000px;
+    max-height: 90vh;
     border-radius: 12px;
     border: 2px solid var(--primary-color);
     position: relative;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
     transform: translateY(30px);
     transition: transform 0.3s ease;
@@ -568,10 +570,11 @@ footer {
     
     .modal-grid {
         grid-template-columns: 1fr;
+        min-height: auto;
     }
     
     .modal-image-container {
-        height: 300px;
+        height: 250px;
     }
     
     .modal-text-container {
@@ -581,6 +584,7 @@ footer {
     
     .back-btn {
         align-self: center;
+        margin-top: 1rem;
     }
 
     .modal-text-container h3 {
@@ -673,18 +677,19 @@ footer {
 
     .modal-price {
         font-size: 1.4rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .modal-desc {
         font-size: 0.9rem;
-        line-height: 1.6;
-        margin-bottom: 1.5rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
     }
 
     .back-btn {
         padding: 0.6rem 1.2rem;
         font-size: 0.8rem;
+        margin-top: 0.5rem;
     }
 
     .contact-grid {
